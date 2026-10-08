@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nos Produits — PHARMACIE SABALI | Catalogue & Parapharmacie</title>
+  <meta name="description" content="Consultez le catalogue de la Pharmacie SABALI : médicaments, parapharmacie, hygiène et soins, univers bébé, matériel médical et compléments bien-être.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="alternate icon" href="favicon.ico">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Nos Produits — PHARMACIE SABALI">
+  <meta property="og:description" content="Catalogue de produits et parapharmacie sélectionnés avec rigueur pour toute la famille.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/pharmacie/interieur.jpg">
+
+  <!-- Feuilles de style -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER & NAVIGATION ==================== -->
+  <header class="site-header" id="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-link" aria-label="Retour à l'accueil Pharmacie SABALI">
+        <div class="logo-badge">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 5v14M5 12h14"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <div class="logo-title">PHARMACIE <span>SABALI</span></div>
+          <div class="logo-tagline">Santé • Écoute • Conseil</div>
+        </div>
+      </a>
+
+      <!-- Navigation Desktop -->
+      <nav class="main-nav" aria-label="Navigation principale">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li><a href="a-propos.html" class="nav-link">À propos</a></li>
+          <li><a href="expertise.html" class="nav-link">Notre expertise</a></li>
+          <li><a href="produits.html" class="nav-link active">Nos produits</a></li>
+          <li><a href="contact.html" class="nav-link">Nos contacts</a></li>
+        </ul>
+      </nav>
+
+      <!-- CTA Header -->
+      <div class="header-cta-group">
+        <button class="btn btn-whatsapp btn-sm" data-wa-action="ask-info" title="Écrire sur WhatsApp">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.303-.058.116-.087.188-.173.289l-.26.303c-.087.087-.179.182-.077.357.101.174.449.741.963 1.2 0.662.59 1.22.772 1.393.859.173.087.275.072.376-.044.101-.116.433-.506.549-.679.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824z"/>
+          </svg>
+          <span>WhatsApp</span>
+        </button>
+        <button class="mobile-toggle" aria-label="Ouvrir le menu de navigation" aria-expanded="false">
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Tiroir Mobile -->
+  <div class="mobile-menu-drawer" id="mobileDrawer">
+    <ul class="mobile-nav-links">
+      <li><a href="index.html" class="nav-link">Accueil</a></li>
+      <li><a href="a-propos.html" class="nav-link">À propos</a></li>
+      <li><a href="expertise.html" class="nav-link">Notre expertise</a></li>
+      <li><a href="produits.html" class="nav-link active">Nos produits</a></li>
+      <li><a href="contact.html" class="nav-link">Nos contacts</a></li>
+    </ul>
+    <button class="btn btn-whatsapp" style="width: 100%;" data-wa-action="ask-info">
+      Contact direct sur WhatsApp
+    </button>
+  </div>
+
+  <main>
+    <!-- ==================== PAGE HERO ==================== -->
+    <section class="page-hero">
+      <div class="hero-pattern"></div>
+      <div class="container" style="position: relative; z-index: 2;">
+        <nav class="breadcrumb" aria-label="Fil d'Ariane">
+          <a href="index.html">Accueil</a>
+          <span>/</span>
+          <span>Nos produits</span>
+        </nav>
+        <h1>Catalogue de Produits</h1>
+        <p>
+          Découvrez notre sélection de références en pharmacie et parapharmacie. Filtrez par catégorie ou recherchez directement un produit.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== SECTION CATALOGUE & RECHERCHE ==================== -->
+    <section class="section">
+      <div class="container">
+        <!-- Avertissement Médical Réglementaire -->
+        <div class="disclaimer-banner fade-in-element">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/>
+          </svg>
+          <div>
+            <strong>Notice d'information médicale & légale :</strong>
+            <p>
+              Ce catalogue est présenté à titre indicatif et informatif. Conformément à la réglementation de la santé publique, les médicaments ne font pas l'objet de vente en ligne directe. La délivrance de médicaments soumis à prescription médicale nécessite obligatoirement la présentation d'une ordonnance valide en officine. Demandez toujours conseil à votre pharmacien.
+            </p>
+          </div>
+        </div>
+
+        <!-- Barre de recherche temps réel -->
+        <div class="search-bar-wrapper fade-in-element">
+          <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/><line x1="21" x2="16.65" y1="21" y2="16.65"/>
+          </svg>
+          <input type="text" id="productSearchInput" class="search-input" placeholder="Rechercher un produit, une marque, un besoin..." aria-label="Rechercher un produit">
+        </div>
+
+        <!-- Filtres par catégorie -->
+        <div class="filter-bar fade-in-element" role="tablist">
+          <button class="filter-btn active" data-category="all" role="tab">Toutes les catégories (18)</button>
+          <button class="filter-btn" data-category="medicaments" role="tab">Médicaments</button>
+          <button class="filter-btn" data-category="parapharmacie" role="tab">Parapharmacie</button>
+          <button class="filter-btn" data-category="hygiene" role="tab">Hygiène et soins</button>
+          <button class="filter-btn" data-category="bebe" role="tab">Bébé & Maternité</button>
+          <button class="filter-btn" data-category="materiel" role="tab">Matériel médical</button>
+          <button class="filter-btn" data-category="bien-etre" role="tab">Bien-être & Nutrition</button>
+        </div>
+
+        <!-- Grille dynamique des produits -->
+        <div class="cards-grid-3" id="productsGrid" style="min-height: 400px;">
+          <!-- Les 18 cartes de produits sont générées dynamiquement par js/main.js -->
+        </div>
+
+        <!-- Bloc aide & commande WhatsApp -->
+        <div style="background: var(--primary-subtle); border: 1.5px dashed var(--primary); border-radius: var(--radius-xl); padding: 2.5rem; text-align: center; margin-top: 4rem;" class="fade-in-element">
+          <h3 style="color: var(--primary-dark); margin-bottom: 0.5rem;">Vous ne trouvez pas votre référence ?</h3>
+          <p style="max-width: 600px; margin: 0 auto 1.5rem; color: var(--text-muted);">
+            Notre stock compte plus de 10 000 références en officine. Envoyez-nous simplement le nom de votre produit ou la photo de votre boîte sur WhatsApp, nous vérifions sa disponibilité instantanément.
+          </p>
+          <button class="btn btn-whatsapp" data-wa-action="product" data-product-name="Recherche spécifique">
+            Demander la disponibilité sur WhatsApp
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-link" style="color: #ffffff;">
+            <div class="logo-badge">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+            </div>
+            <div class="logo-text">
+              <div class="logo-title" style="color: #ffffff;">PHARMACIE <span style="color: var(--primary-light);">SABALI</span></div>
+              <div class="logo-tagline" style="color: #94a3b8;">Santé • Écoute • Conseil</div>
+            </div>
+          </div>
+          <p>
+            Officine de référence engagée pour votre santé. Conseil pharmaceutique, disponibilité des médicaments et service personnalisé au cœur de votre quotidien.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="a-propos.html">À propos de nous</a></li>
+            <li><a href="expertise.html">Notre expertise</a></li>
+            <li><a href="produits.html">Nos produits</a></li>
+            <li><a href="contact.html">Nos contacts</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Services</h4>
+          <ul class="footer-links">
+            <li><a href="index.html#services">Conseil pharmaceutique</a></li>
+            <li><a href="index.html#services">Prise en charge AMO</a></li>
+            <li><a href="index.html#services">Convention SARALI</a></li>
+            <li><a href="index.html#services">Espace Consultation</a></li>
+            <li><a href="produits.html">Catalogue produits</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Nous contacter</h4>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>[ADRESSE_PHARMACIE]</span>
+            </li>
+            <li class="footer-contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>[NUMERO_TELEPHONE]</span>
+            </li>
+            <li class="footer-contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              <span>[EMAIL_PHARMACIE]</span>
+            </li>
+            <li class="footer-contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>Lun - Sam : 08h00 - 22h00</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 Pharmacie SABALI — Tous droits réservés.
+        </div>
+        <div class="social-links">
+          <a href="#" class="social-btn" title="Facebook Pharmacie SABALI" aria-label="Facebook">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <button class="social-btn btn-whatsapp" title="WhatsApp Pharmacie SABALI" aria-label="WhatsApp">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.303-.058.116-.087.188-.173.289l-.26.303c-.087.087-.179.182-.077.357.101.174.449.741.963 1.2 0.662.59 1.22.772 1.393.859.173.087.275.072.376-.044.101-.116.433-.506.549-.679.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824z"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Actions Flottantes -->
+  <div class="floating-actions">
+    <button class="floating-wa-btn" data-wa-action="ask-info" title="WhatsApp" aria-label="WhatsApp">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.007c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.303-.058.116-.087.188-.173.289l-.26.303c-.087.087-.179.182-.077.357.101.174.449.741.963 1.2 0.662.59 1.22.772 1.393.859.173.087.275.072.376-.044.101-.116.433-.506.549-.679.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.043.073.043.419-.101.824z"/></svg>
+    </button>
+    <button class="scroll-top-btn" aria-label="Retour en haut" title="Remonter en haut">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
