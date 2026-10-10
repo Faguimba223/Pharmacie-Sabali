@@ -31,7 +31,7 @@ const PRODUCTS_DATA = [
     shortDesc: "Antalgique et antipyrétique de référence pour soulager douleurs d'intensité légère à modérée et fièvres.",
     fullDesc: "Formulation comprimés sous blister. Indiqué dans le traitement symptomatique des céphalées, états grippaux, douleurs dentaires et courbatures. Posologie et espacement des prises à respecter rigoureusement.",
     precautions: "Respecter la dose maximale journalière. Ne pas associer à d'autres médicaments contenant du paracétamol.",
-    image: "images/produits/prod-paracetamol.svg",
+    image: "images/produits/prod-paracetamol.jpg",
     badge: "Conseil Officinal"
   },
   {
@@ -243,7 +243,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initBackToTop();
   initActiveNavigation();
   initScrollAnimations();
-  
+
   // Modules spécifiques selon la page
   initProductsPage();
   initGalleryLightbox();
@@ -264,7 +264,7 @@ function initWhatsAppLinks() {
       e.preventDefault();
       const action = btn.getAttribute("data-wa-action") || "contact";
       let message = "Bonjour Pharmacie SABALI, je vous contacte depuis votre site internet.";
-      
+
       if (action === "ask-info") {
         message = "Bonjour Pharmacie SABALI, je souhaiterais obtenir des informations sur vos services et disponibilités.";
       } else if (action === "product") {
@@ -505,7 +505,7 @@ function initProductsPage() {
   }
 
   // Fonction globale pour réinitialiser
-  window.resetProductFilters = function() {
+  window.resetProductFilters = function () {
     currentCategory = "all";
     currentSearchQuery = "";
     if (searchInput) searchInput.value = "";
@@ -835,7 +835,7 @@ function showSuccessModal() {
   modal.classList.add("active");
   document.body.style.overflow = "hidden";
 
-  window.closeSuccessModal = function() {
+  window.closeSuccessModal = function () {
     modal.classList.remove("active");
     document.body.style.overflow = "";
   };
